@@ -8,14 +8,13 @@ public class Starting {
 //		SinglyLinkedList<Integer> ll = new SinglyLinkedList<>();
 		DoublyLinkedList<Integer> dl = new DoublyLinkedList<>();
 
-		System.out.println("THIS IS BELOW");
-		dl.addFirst(3);
-		dl.addFirst(4);
-		dl.addLast(69);
-		dl.addLast(6555559);
+		dl.addFirst(1);
+		dl.addFirst(44);
+		dl.addLast(55);
 		dl.removeLast();
+		dl.removeFirst();
+		System.out.println(dl.last());
 
-		System.out.println(dl.size());
 		
 	}
 }
