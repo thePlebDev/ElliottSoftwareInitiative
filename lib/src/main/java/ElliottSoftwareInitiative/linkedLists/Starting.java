@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Starting {
 
 	public static void main (String [] args) {
-//		SinglyLinkedList<Integer> ll = new SinglyLinkedList<>();
+		SinglyLinkedList<Integer> ll = new SinglyLinkedList<>();
 		DoublyLinkedList<Integer> dl = new DoublyLinkedList<>();
 
 		dl.addFirst(1);
@@ -14,6 +14,7 @@ public class Starting {
 		dl.removeLast();
 		dl.removeFirst();
 		System.out.println(dl.last());
+
 
 		
 	}
