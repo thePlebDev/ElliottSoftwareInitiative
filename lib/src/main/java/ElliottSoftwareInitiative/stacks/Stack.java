@@ -1,4 +1,4 @@
-package ElliottSoftwareInitiative;
+package ElliottSoftwareInitiative.stacks;
 
 /**
  * A collection of objects that are inserted and removed according to the last-in

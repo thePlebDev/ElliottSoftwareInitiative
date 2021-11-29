@@ -1,6 +1,6 @@
-package ElliottSoftwareInitiative;
+package ElliottSoftwareInitiative.stacks;
 
-public class ArrayStack <E> implements Stack<E>{
+public class ArrayStack <E> implements Stack<E> {
 
     private E[] data;
     private int t = -1;

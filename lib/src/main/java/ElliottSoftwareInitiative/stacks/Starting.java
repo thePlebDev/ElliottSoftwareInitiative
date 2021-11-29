@@ -1,4 +1,7 @@
-package ElliottSoftwareInitiative;
+package ElliottSoftwareInitiative.stacks;
+
+import ElliottSoftwareInitiative.stacks.ArrayStack;
+import ElliottSoftwareInitiative.stacks.Stack;
 
 public class Starting {
 
