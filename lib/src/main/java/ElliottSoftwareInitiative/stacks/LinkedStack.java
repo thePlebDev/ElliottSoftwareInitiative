@@ -2,6 +2,9 @@ package ElliottSoftwareInitiative.stacks;
 
 import ElliottSoftwareInitiative.linkedLists.SinglyLinkedList;
 
+/**
+ * THE SINGLY LINKED LIST STACK IMPLEMENTATION
+ * **/
 public class LinkedStack <E> implements Stack<E>{
     private SinglyLinkedList<E> list = new SinglyLinkedList<>();
 
